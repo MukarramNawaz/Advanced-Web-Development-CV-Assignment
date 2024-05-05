@@ -1,0 +1,130 @@
+.app {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #cfcfcf;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+  text-align: center;
+  background-color: #6dd6ff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  margin: 20px;
+  }
+  .header img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 100px;
+    background-color: #000000;
+    border-radius: 50%;
+  }
+
+  .header-row {
+  display: flex;
+  border: 2px solid #7700ff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  }
+  .career-objective 
+  { padding-left: 20px;
+    text-align: justify;
+  }
+
+  .career-objective h2, .education h2, .languages h2, .contact h2, .skills h2, .technical-skills h2, .interests h2, .socials h2
+  {
+    font-weight:400;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+
+  .languages,
+  .technical-skills,
+  .socials,
+  .contact
+  {
+    border-left: 2px solid;
+    border-left-color: #7700ff;
+    margin-left:  57px;
+    
+  }
+
+  .education,
+  .languages,
+  .skills,
+  .technical-skills,
+  .interests,
+  .socials
+  {
+    padding-left: 20px;
+  }
+
+  .technical-skills
+  {
+    margin-left: 179px;
+  }
+  
+  .skills,
+  .languages,
+  .technical-skills,
+  .interests,
+  .socials 
+  {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    li:before {
+      content: '→';
+      margin-right: 10px;
+      color: #7700ff; 
+    }
+  }
+  
+  .contact
+  {
+    padding: 0 10px;
+  }
+
+  h2 {
+  margin-bottom: 10px;
+  color: #333;
+  }
+  
+  ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  li {
+  margin-bottom: 20px;
+  }
+  
+  li span {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333;
+  }
+  
+  .social_image
+  {
+    height: 15px;
+  }
